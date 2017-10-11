@@ -1,2 +1,15 @@
 node_modules
 bower_components
+
+# Created by https://www.gitignore.io/api/dreamweaver
+
+### Dreamweaver ###
+# DW Dreamweaver added files
+_notes
+_compareTemp
+configs/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+
+# End of https://www.gitignore.io/api/dreamweaver
