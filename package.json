@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:stphnduvall/stephenduvall.git",
   "author": "Stephen DuVall <stephen.duvall13@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  }
 }
