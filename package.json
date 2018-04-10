@@ -6,6 +6,8 @@
   "author": "Stephen DuVall <stephen.duvall13@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.3.2",
+    "diff": "^3.5.0",
     "node-sass": "^4.8.3"
   }
 }
