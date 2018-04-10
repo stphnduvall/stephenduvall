@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,macos,webstorm,visualstudiocode
+# Created by https://www.gitignore.io/api/sass,node,macos,webstorm,visualstudiocode
 
 ### macOS ###
 *.DS_Store
@@ -89,6 +89,10 @@ typings/
 .env
 
 
+### Sass ###
+.sass-cache/
+*.css.map
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -163,4 +167,10 @@ fabric.properties
 .idea/sonarlint
 
 
-# End of https://www.gitignore.io/api/node,macos,webstorm,visualstudiocode
+# End of https://www.gitignore.io/api/sass,node,macos,webstorm,visualstudiocode
+
+# Custom ignores
+
+*.css
+
+# End of custom ignores
