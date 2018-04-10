@@ -1,0 +1,58 @@
+@import "_typography.scss";
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #1b1b1b;
+}
+
+.parallax-window {
+	min-height: 100vh;
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.intro {
+	text-align: center;
+	overflow-wrap: break-word;
+}
+
+.divider {
+	height: 5vh;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	height: 50vh;
+	align-content: center;
+}
+
+.grid-header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+ul {
+	color: white;
+	text-align: center;
+	list-style: none;
+}
+
+.stretch-grid {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
