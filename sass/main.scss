@@ -35,10 +35,12 @@ body {
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
+	grid-gap: 2rem;
 	min-height: 25vh;
 	max-height: 50vh;
 	align-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .grid-header {
