@@ -36,7 +36,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px;
-	height: 50vh;
+	min-height: 25vh;
+	max-height: 50vh;
 	align-content: center;
 }
 
