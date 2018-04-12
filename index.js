@@ -1,7 +1,8 @@
-var chalk = require('chalk')
-var JsDiff = require('diff')
 var sass = require('node-sass')
 var fs = require('fs')
+var JsDiff = require('diff')
+var chalk = require('chalk')
+
 sass.render({
   file: 'sass/main.scss'
 }, function(err, result) {
