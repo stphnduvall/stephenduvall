@@ -14,7 +14,7 @@ sass.render({
   } else {
     console.error(err)
   }
-  generateIndex();
+  generateIndex()
 })
 
 function printDiff(diff) {
