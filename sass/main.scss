@@ -15,12 +15,16 @@ body {
 }
 
 .parallax-window {
-	min-height: 100vh;
+	min-height: 50vh;
 	background: transparent;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+#main {
+	min-height: 100vh;
 }
 
 .intro {
@@ -35,9 +39,12 @@ body {
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	height: 50vh;
+	grid-gap: 2rem;
+	min-height: 25vh;
+	max-height: 50vh;
 	align-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .grid-header {
