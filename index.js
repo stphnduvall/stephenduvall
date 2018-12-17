@@ -2,7 +2,7 @@ var sass = require('node-sass')
 var fs = require('fs')
 var JsDiff = require('diff')
 var chalk = require('chalk')
-var concat = require('concat-files')
+// var concat = require('concat-files')
 
 sass.render({
   file: 'sass/main.scss'
@@ -14,7 +14,7 @@ sass.render({
   } else {
     console.error(err)
   }
-  generateIndex()
+  // generateIndex()
 })
 
 function printDiff(diff) {
