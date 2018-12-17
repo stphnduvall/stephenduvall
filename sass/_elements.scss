@@ -1,0 +1,21 @@
+@import "_variables.scss";
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #1b1b1b;
+}
+
+ul {
+	color: white;
+	text-align: center;
+	list-style: none;
+}

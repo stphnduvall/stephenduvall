@@ -1,65 +1,44 @@
 @import "_typography.scss";
+@import "_images.scss";
+@import "_elements.scss";
 
-::-webkit-scrollbar {
-	display: none;
-}
-
-* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	margin: 0;
-	background-color: #1b1b1b;
-}
-
-.parallax-window {
-	min-height: 50vh;
-	background: transparent;
+.container {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-wrap: nowrap;
 	justify-content: center;
+	align-items: center;
+	min-height: 60vh;
+	// margin-left: 5vw;
+	// margin-right: 5vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	border-bottom: 1px #edecf4;
+	border-bottom-style: solid;
 }
 
-#main {
-	min-height: 100vh;
-}
-
-.intro {
-	text-align: center;
-	overflow-wrap: break-word;
+.content {
+	flex-grow: 6;
+	border-left: 2px;
+	border-left-style: solid;
+	margin-left: 2vw;
 }
 
 .divider {
-	height: 5vh;
+	min-height: 40vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 2rem;
-	min-height: 25vh;
-	max-height: 50vh;
-	align-content: center;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+#front-page {
+	height: 100vh;
+	margin: 0;
+	background-image: url("../img/_MG_5316-bw.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.grid-header {
-	grid-column-start: 1;
-	grid-column-end: 4;
-}
+#computer, #programming, #gaming {
 
-ul {
-	color: white;
-	text-align: center;
-	list-style: none;
-}
-
-.stretch-grid {
-	text-align: center;
-	grid-column-start: 1;
-	grid-column-end: 4;
 }

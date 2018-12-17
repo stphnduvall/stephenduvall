@@ -1,0 +1,18 @@
+@import "_variables.scss";
+
+.portrait-img {
+	padding: $image-padding;
+	max-width: 25vw;
+}
+
+#computerImg {
+  background-image: url("../img/02.jpg");
+}
+
+#programmingImg {
+  background-image: url("../img/code.jpg");
+}
+
+#gamingImg {
+  background-image: url("../img/20171219212409_1.jpg");
+}
