@@ -3,6 +3,14 @@ This is my personal webiste. It was based off the greyscale bootstrap template t
 
 I'm redesigning it myself to use flexbox and css grid without using any dependacy on bootstrap.
 
-Im not the best web developer and thats why I'm trying to not use bootstrap. I probably have a lot of things wrong on this site and there's still more for me to learn.
+There's a lot of work that needs to get done on this site since I decided to rebuild it.
 
 You can view the website at [stephenduvall.me]("https://stephenduavll.me")
+
+## ToDo:
+- [ ] Add content to all sections
+- [ ] Add parallax scrolling to the images
+- [ ] Add a navbar with scroll spy that jumps to different sections
+- [ ] Add links to gaming servers
+- [ ] Add wishlist page **ASAP!!!**
+- [ ] figure out what `package-lock.json` is for and if I should commit it
