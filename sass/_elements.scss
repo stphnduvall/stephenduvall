@@ -1,5 +1,9 @@
 @import "_variables.scss";
 
+html {
+	scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
 	display: none;
 }
@@ -35,18 +39,29 @@ ul {
 
 ul.navbar li {
 	display: inline;
-	float: right;
+	transition: outline .1s;
+	&.nav-right {
+		float: right;
+		border-left: solid $off-white-color 1px;
+	}
 	&.nav-left {
 		float: left;
+		border-right: solid $off-white-color 1px;
+	}
+	&:hover {
+		// background-color: $off-white-color;
+		outline: solid $off-white-color 4px;
+		opacity: 75%;
 	}
 }
 
-.nav-link a {
+.nav-link {
+	font-size: $paragraph-font-size;
+	font-weight: bold;
 	display: block;
-	width: 10vw;
+	min-width: 10vw;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	border-left: solid $off-white-color 2px;
-	border-bottom: solid $off-white-color 2px;
+	// border-bottom: solid $off-white-color 1px;
 }

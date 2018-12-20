@@ -32,11 +32,11 @@ h3 {
 }
 
 a {
-	color: $link-color;
+	color: $off-white-color;
 	text-decoration: none;
   &:hover {
-    color: $link-hover-color;
-    text-decoration: underline;
+    color: $link-color;
+    text-decoration: none;
     text-decoration-color: $link-decoration-color;
   }
 }
