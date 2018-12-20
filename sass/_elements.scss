@@ -19,3 +19,34 @@ ul {
 	text-align: center;
 	list-style: none;
 }
+
+
+// Custom Navbar
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: $background-color;
+}
+
+ul.navbar li {
+	display: inline;
+	float: right;
+	&.nav-left {
+		float: left;
+	}
+}
+
+.nav-link a {
+	display: block;
+	width: 10vw;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-left: solid $off-white-color 2px;
+	border-bottom: solid $off-white-color 2px;
+}
