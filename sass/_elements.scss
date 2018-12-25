@@ -35,6 +35,7 @@ ul {
 	top: 0;
 	width: 100%;
 	background-color: $background-color;
+	border-bottom: solid $nav-border-color 1px;
 }
 
 ul.navbar li {
@@ -42,15 +43,15 @@ ul.navbar li {
 	transition: outline .1s;
 	&.nav-right {
 		float: right;
-		border-left: solid $off-white-color 1px;
+		border-left: solid $nav-border-color 1px;
 	}
 	&.nav-left {
 		float: left;
-		border-right: solid $off-white-color 1px;
+		border-right: solid $nav-border-color 1px;
 	}
 	&:hover {
 		// background-color: $off-white-color;
-		outline: solid $off-white-color 4px;
+		outline: solid $nav-border-color 4px;
 		opacity: 75%;
 	}
 }
