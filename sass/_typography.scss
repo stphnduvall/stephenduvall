@@ -26,13 +26,15 @@ h1 {
 h2 {
 	font-size: $h2-font-size;
 }
+h2#modal-heading {
+	font-size: $h2-font-size / 2;
+}
 
 h3 {
 	font-size: $h3-font-size;
 }
 
 a {
-	display: block;
 	color: $off-white-color;
 	text-decoration: none;
   &:hover {

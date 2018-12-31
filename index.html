@@ -41,10 +41,10 @@
     <div class="title"><h2>Computer<br>Hardware</h2></div>
     <div class="content">
       <ul class="hardware-list">
-        <li><p><a href="#">Intel Core i5 4600 <br>AMD Radeon 390X Strix<br>Samsung 850 Evo 500Gb</a></p></li>
-        <li><p><a href="#">Intel Core i3<br>8Gb Ram<br>1Tb WD Blue HDD</a></p></li>
-        <li><p><a href="#">AWS Servers & Domain Registrar</a></p></li>
-        <li><p><a href="#">Google Cloud Platform Server</a></p></li>
+        <li onclick="createModal('1')"><p><a>Intel Core i5 4600 <br>AMD Radeon 390X Strix<br>Samsung 850 Evo 500Gb</a></p></li>
+        <li><p><a>Intel Core i3<br>8Gb Ram<br>1Tb WD Blue HDD</a></p></li>
+        <li><p><a>AWS Servers & Domain Registrar</a></p></li>
+        <li><p><a>Google Cloud Platform Server</a></p></li>
       </ul>
     </div>
   </div>
@@ -69,14 +69,22 @@
   <div id="gaming" class="container">
     <div class="title"><h2>Gaming</h2></div>
     <div class="content container">
-      <button class="flexButtons">PC</button>
-      <button class="flexButtons">Discord Server</button>
-      <button class="flexButtons">Minecraft Servers</button>
-      <button class="flexButtons">Switch</button>
+      <button onclick="createModal('1')" class="flexButtons">PC</button>
+      <button onclick="createModal('2')" class="flexButtons">Discord Server</button>
+      <button onclick="createModal('3')" class="flexButtons">Minecraft Servers</button>
+      <button onclick="createModal('4')" class="flexButtons">Switch</button>
     </div>
   </div>
 
-  <script src="scripts.js"></script>
+  <div id="modal" class="modal">
+    <div id="modal-content" class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-heading"></h2>
+      <div id="modal-text"></div>
+    </div>
+  </div>
+
+  <script src="js/modals.js"></script>
 </body>
 
 </html>
