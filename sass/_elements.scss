@@ -23,3 +23,22 @@ ul {
 	text-align: center;
 	list-style: none;
 }
+
+button {
+	font-size: 1rem;
+	font-weight: bold;
+	width: 15vw;
+	display: block;
+	padding: 2vh 2vw;
+	margin: 1vh 2vw;
+	background-color: $background-color;
+	border: solid $link-color 4px;
+	border-radius: 2px;
+
+	transition: outline .1s;
+	&:hover {
+		outline: solid $link-color 4px;
+		color: $link-color;
+		// opacity: 75%;
+	}
+}
