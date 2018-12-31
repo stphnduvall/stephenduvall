@@ -1,7 +1,8 @@
 @import "_variables.scss";
 
 .portrait-img {
-	padding: $image-padding;
+  padding: $image-padding;
+  border-radius: 50%;
 	max-width: 25vw;
 }
 
