@@ -1,0 +1,109 @@
+@import url(bootstrap-grid.min.css);
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1);
+  line-height: 75%;
+  margin-bottom: 10px;
+  text-align: center; }
+
+h1 {
+  font-size: 7rem; }
+
+h2 {
+  font-size: 4.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+a {
+  color: #ff6f00;
+  text-decoration: none; }
+  a:hover {
+    color: #c43e00;
+    text-decoration: underline;
+    text-decoration-color: #c43e00; }
+
+p {
+  margin: 1rem; }
+
+.copyright {
+  font-size: 0.9rem;
+  text-align: center; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  margin: 0;
+  background-color: #1b1b1b; }
+
+.parallax {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+#intro {
+  min-height: 100vh;
+  background: url("../img/_MG_5316-bw.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#photography {
+  min-height: 100vh;
+  background: url("../img/02.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#programming {
+  min-height: 100vh;
+  background: url("../img/code.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+.header {
+  text-align: center;
+  overflow-wrap: break-word; }
+
+.divider {
+  height: 10vh; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  min-height: 25vh;
+  max-height: 50vh;
+  align-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.grid-header {
+  grid-column-start: 1;
+  grid-column-end: 4; }
+
+ul {
+  color: white;
+  text-align: center;
+  list-style: none; }
+
+.stretch-grid {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4; }
+
+p.col {
+  text-align: center; }
