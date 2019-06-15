@@ -1,0 +1,44 @@
+{
+  "name": "stephenduvall",
+  "version": "1.0.0",
+  "description": "Source code for my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stphnduvall/stephenduvall.git"
+  },
+  "author": "Stephen DuVall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stphnduvall/stephenduvall/issues"
+  },
+  "homepage": "https://github.com/stphnduvall/stephenduvall#readme",
+  "keywords": [
+    "React",
+    "node",
+    "bable",
+    "typescript",
+    "web"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.11.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
