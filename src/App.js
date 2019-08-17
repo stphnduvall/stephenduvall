@@ -1,15 +1,9 @@
-import React, { Component } from "react";
-import {hot} from "react-hot-loader";
-import "./main.css";
+import React from "react"
+import {hot} from "react-hot-loader"
+import "./main.css"
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Stephen DuVall</h1>
-      </div>
-    );
-  }
+function App() {
+  return <h1>Root</h1>
 }
 
 export default hot(module)(App);
