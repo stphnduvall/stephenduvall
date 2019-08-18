@@ -11,10 +11,7 @@
 }
 
 body {
-  min-height: 100vh;
-  overflow: hidden;
-  background: no-repeat center url(../img/_MG_5316-bw.jpg);
-  background-size: cover;
+  background: #1b1b1b;
 }
 
 div.content {
@@ -25,10 +22,10 @@ div.content {
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1);
 }
 
-img#camp {
-  float: left;
-  padding: 10px;
-  vertical-align: middle;
-  border-style: none;
-  max-width: 30%;
+div.name {
+  height: 100%;
+  background-image: url('../img/_MG_5316-bw.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

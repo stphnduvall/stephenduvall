@@ -1,26 +1,17 @@
-h1, h2{
+h1 {
   color: white;
-  margin: 0 0 35px;
-  padding: 20px;
+  padding: 20px 5px 20px;
 	text-transform: uppercase;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
-	letter-spacing: 1px;
 	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1);
 	line-height: 75%;
-	margin-bottom: 10px;
 	text-align: center;
   overflow-wrap: break-word;
-  
 }
 
-$h1-font-size: 8vw;
-
-h1 {
-  font-size: $h1-font-size;
+p.joke {
+	line-height: 75%;
+	font-size: 1.25rem;
+	font-weight: 300;
 }
-
-h2 {
-  font-size: $h1-font-size / 2;
-}
-
