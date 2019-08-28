@@ -16,20 +16,23 @@ export default function Projects() {
   ]
 
   return (
-    projectArray.map(project => {
-      return (
-        <>
-          <a className="row align-items-center" href={project.link}>
-            <div className="col-4 col-md-6" id="projectImage">
-              <img src={project.img} className="img-fluid" />
-            </div>
-            <div className="col" id="projectInfo">
-              <h3>{project.title}</h3>
-              <p>{project.desc}</p>
-            </div>
-          </a>
-        </>
-      )
-    })
+    <>
+      <h2 id="projectHeading">Projects</h2>
+      {
+        projectArray.map(project => {
+          return (
+            <a className="row align-items-center" href={project.link}>
+              <div className="col-4 col-md-6" id="projectImage">
+                <img src={project.img} className="img-fluid" />
+              </div>
+              <div className="col" id="projectInfo">
+                <h3>{project.title}</h3>
+                <p>{project.desc}</p>
+              </div>
+            </a>
+          )
+        })
+      }
+    </>
   )
 }
