@@ -173,4 +173,6 @@ fabric.properties
 
 sass/bootstrap-4.3.1/*
 dist/*
+public/css/main.css
+
 # End of custom ignores
