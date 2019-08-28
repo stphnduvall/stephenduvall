@@ -9,19 +9,25 @@ function project(title, img, desc, link) {
 
 export default function Projects() {
 
-  let projectArray = [new project('title1', 'src/_MG_5316-bw.jpg', 'testing description 1', 'https://google.com'),
-    new project('title2', 'src/_MG_5316-bw.jpg', 'testing description 1', 'https://google.com'),
-    new project('title3', 'src/_MG_5316-bw.jpg', 'testing description 1', 'https://google.com')
+  let projectArray = [
+    new project('Project 1', 'https://via.placeholder.com/200/ff6f00/000', 'I built this project in high school. It was very basic and doesn\'t do much I built this project in high school. It was very basic and doesn\'t do much', 'https://google.com'),
+    new project('Project 2', 'https://via.placeholder.com/200/ff6f00/000', 'This is one of my favorite projects. I like the code a lot', 'https://google.com'),
+    new project('Project 3', 'https://via.placeholder.com/200/ff6f00/000', 'I don\'t know why I have this project on here, I really hate it.', 'https://google.com')
   ]
 
   return (
     projectArray.map(project => {
       return (
         <>
-          <h2>{project.title}</h2>
-          <img src={project.img}></img>
-          <p>{project.desc}</p>
-          <a href={project.link}>{project.link}</a>
+          <a className="row align-items-center" href={project.link}>
+            <div className="col-4 col-md-6" id="projectImage">
+              <img src={project.img} className="img-fluid" />
+            </div>
+            <div className="col" id="projectInfo">
+              <h3>{project.title}</h3>
+              <p>{project.desc}</p>
+            </div>
+          </a>
         </>
       )
     })
