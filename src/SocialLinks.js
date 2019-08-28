@@ -6,25 +6,27 @@ function Buttons() {
   let buttons = [
     {
       value: 'GroupMe',
-      type: 'primary',
+      type: '',
       link: 'https://groupme.com'
     },
     {
       value: 'Discord',
-      type: 'secondary',
+      type: '',
       link: 'https://instagram.com'
     },
     {
       value: 'Social',
-      type: 'warning',
+      type: '',
       link: 'https://google.com'
     }
   ]
 
   return (
-    buttons.map((i) => {
-      return <SocialBtn type={i.type} value={i.value} link={i.link}/>
-    })
+    <div class="row justify-content-center">
+      {buttons.map((i) => {
+        return <SocialBtn type={i.type} value={i.value} link={i.link}/>
+      })}
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ export default class SocialBtn extends React.Component {
 
     this.state = {
       value: this.props.value,
-      type: this.props.type,
+      type: 'btn col p-0 ' + this.props.type,
       link: this.props.link
     }
   }
