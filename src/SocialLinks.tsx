@@ -6,17 +6,17 @@ export function Buttons() {
     {
       value: 'GroupMe',
       type: '',
-      link: 'https://groupme.com'
+      link: 'https://groupme.com/join_group/50943163/JLXTmLnN'
     },
     {
       value: 'Discord',
       type: '',
-      link: 'https://instagram.com'
+      link: 'https://discord.gg/nH7SCnQ'
     },
     {
-      value: 'Social',
+      value: 'Instagram',
       type: '',
-      link: 'https://google.com'
+      link: 'https://instagram.com/stephenduvall'
     }
   ]
 
