@@ -1,8 +1,9 @@
 # Stephen DuVall
-This is my personal webiste. It was based off the greyscale bootstrap template that I found on the internet.
+Source code for my personal website [stephenduvall.me]("https://stephenduavll.me")
 
-I'm redesigning it myself to use flexbox and css grid without using any dependacy on bootstrap.
+It's built with typescript and react. I am still learning how to use react so
+there is lots of room for this site to improve.
 
-Im not the best web developer and thats why I'm trying to not use bootstrap. I probably have a lot of things wrong on this site and there's still more for me to learn.
-
-You can view the website at [stephenduvall.me]("https://stephenduavll.me")
+## To do:
+- [ ] Create markdown parser
+- [ ] Use markdown files instead of hard coded in the Javascript.
