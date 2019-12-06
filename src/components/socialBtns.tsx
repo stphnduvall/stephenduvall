@@ -29,4 +29,3 @@ export default class SocialBtn extends React.Component<ButtonProps, ButtonState>
     )
   }
 }
-
