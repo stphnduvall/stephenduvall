@@ -9,7 +9,7 @@ function Projects() {
 
   return (
     <>
-      <h2 id="projectHeading">Projects</h2>
+      <h2 id="projectHeading" className="py-2">Projects</h2>
       {
         elements.projects.map(project => {
           return (
