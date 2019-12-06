@@ -5,10 +5,12 @@ export interface project {
   link: string
 }
 
+import bart from "img/bart.jpg"
+
 export const projects: project[] = [
   {
     title: 'Dad Joke Bot',
-    img: 'bart.jpg',
+    img: `${bart}`,
     desc: 'Who doesn\'t love a good dad joke every day? That\'s exactly what this project does. Built with typescript and NodeJs',
     link: 'https://github.com/stphnduvall/groupme-bot'
   },
