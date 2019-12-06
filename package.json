@@ -20,25 +20,25 @@
   },
   "homepage": "https://github.com/stphnduvall/stephenduvall#readme",
   "devDependencies": {
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "autoprefixer": "^9.6.1",
-    "css-loader": "^3.2.0",
-    "eslint-plugin-react": "^7.14.3",
-    "file-loader": "^4.2.0",
-    "node-sass": "^4.12.0",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "file-loader": "^4.3.0",
+    "node-sass": "^4.13.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.3.1",
-    "style-loader": "^1.0.0",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.6.2",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7",
-    "webpack-dev-server": "^3.8.0"
+    "style-loader": "^1.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "bootstrap": "^4.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
