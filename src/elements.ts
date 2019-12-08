@@ -28,12 +28,6 @@ export const projects: project[] = [
     desc: 'A Podcast CMS for my local college ministry to record and upload podcasts',
     link: 'https://rootsnextgeneration.org'
   },
-  {
-    title: 'movie-dl',
-    img: 'https://www.rootsnextgeneration.org/roots.png',
-    desc: 'A little bit of code that searches and downloads movies from a website',
-    link: '#'
-  },
 ]
 
 export let buttons = [
