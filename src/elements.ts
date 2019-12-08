@@ -5,7 +5,9 @@ export interface project {
   link: string
 }
 
-import bart from "img/bart.jpg"
+let bart = require('./img/bart.jpg')
+let mc = require('./img/mc.jpeg')
+let roots = require('./img/roots.png')
 
 export const projects: project[] = [
   {
@@ -16,13 +18,13 @@ export const projects: project[] = [
   },
   {
     title: 'MCStatus',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZhssWQs2hoInBs_5gU4Y5XVmfLUDoDLIfhuoebNEkNki2A-U6BA',
+    img: `${mc}`,
     desc: 'Simple npm module that checks the status of a Minecraft server. (Will be implemented on this site soon)',
     link: 'https://github.com/stphnduvall/mcstatus'
   },
   {
     title: 'Roots Next Generation',
-    img: 'https://www.rootsnextgeneration.org/roots.png',
+    img: `${roots}`,
     desc: 'A Podcast CMS for my local college ministry to record and upload podcasts',
     link: 'https://rootsnextgeneration.org'
   },
