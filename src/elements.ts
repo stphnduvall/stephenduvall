@@ -52,5 +52,15 @@ export let buttons = [
     value: 'Instagram',
     type: '',
     link: 'https://instagram.com/stephenduvall'
+  },
+  {
+    value: 'Twitter',
+    type: '',
+    link: 'https://twitter.com/stephenduvall17'
+  },
+  {
+    value: 'Github',
+    type: '',
+    link: 'https://github.com/stphnduvall'
   }
 ]
