@@ -8,8 +8,15 @@ export interface project {
 let bart = require('./img/bart.jpg')
 let mc = require('./img/mc.jpeg')
 let roots = require('./img/roots.png')
+let triag = require('./img/SSS screenshot.png')
 
 export const projects: project[] = [
+  {
+    title: 'Nspire Triangle Solver',
+    img: `${triag}`,
+    desc: 'A small lua script written for the TI-Nspire series of calculators that can solve a triangle given 3 sets of information.',
+    link: 'https://github.com/stphnduvall/nspire-triangle'
+  },
   {
     title: 'Dad Joke Bot',
     img: `${bart}`,
